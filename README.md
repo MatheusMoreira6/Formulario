@@ -1,5 +1,7 @@
-# Formulario JavaScript
-
-Formulário JavaScript com gerador aleatório de informações e validação de CEP.
+# Formulário JavaScript
 
 Projeto realizado no 5° Semestre de Eng. Software
+
+**Recursos**<br>
+- Gerador aleatório de informações
+- Validação de CEP
