@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+
+    <body>
+        <div class="conteudo" id="formulario">
+            <h1>Formulário</h1>
+
+            <div class="campos">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="inputNome" />
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="inputEmail" />
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="inputTelefone" />
+                </div>
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="inputCep" />
+                </div>
+                <div id="botoes">
+                    <button class="personalizacaoBotao" id="gerar"><i class="material-icons">refresh</i></button>
+                    <button class="personalizacaoBotao" id="enviar" type="submit"><i class="material-icons">send</i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteudo" id="informacoes">
+            <h1>Informações</h1>
+
+            <div class="campos">
+                <table>
+                    <tr>
+                        <th>Nome:</th>
+                        <td id="nome"></td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td id="email"></td>
+                    </tr>
+                    <tr>
+                        <th>Telefone:</th>
+                        <td id="telefone"></td>
+                    </tr>
+                    <tr>
+                        <th>CEP:</td>
+                        <td id="cep"></td>
+                    </tr>
+                    <tr>
+                        <th>Logradouro:</th>
+                        <td id="logradouro"></td>
+                    </tr>
+                    <tr>
+                        <th>Bairro:</th>
+                        <td id="bairro"></td>
+                    </tr>
+                    <tr>
+                        <th>Localidade:</th>
+                        <td id="localidade"></td>
+                    </tr>
+                    <tr>
+                        <th>UF:</th>
+                        <td id="uf"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/imask"></script>
+        <script src="./script/faker.js" charset="UTF-8"></script>
+        <script src="./script/script.js"></script>
+    </body>
+
+</html>

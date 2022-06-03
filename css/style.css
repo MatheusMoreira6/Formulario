@@ -1,0 +1,108 @@
+html, body {
+    min-width: 100vh;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-color: #E0FFFF;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 382.5px;
+    height: 633.3px;
+    padding: 40px;
+
+    border: 1px solid;
+    border-radius: 30px;
+
+    background-color: white;
+}
+
+.conteudo > h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.campos {
+    width: 300px !important;
+    height: 422px !important;
+    margin-top: 60px;
+
+    text-align: start !important;
+}
+
+label {
+    color: #000000 !important;
+    font-weight: bold !important;
+    font-size: medium !important;
+}
+
+#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 45px;
+    margin-bottom: 21px;
+}
+
+.personalizacaoBotao {
+    width: 80px;
+    height: 50px;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    box-shadow: 0px 10px 14px -7px #417386;
+    background: linear-gradient(#5fa5c0, #3a98bd);
+}
+
+.personalizacaoBotao:hover {
+    background: linear-gradient(#6dbcdb, #45b8e6);
+    cursor: pointer;
+}
+
+.personalizacaoBotao > i {
+    color: #202020;
+    font-size: xx-large;
+}
+
+#gerar {
+    margin-right: 70px;
+}
+
+#gerar > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enviar {
+    margin-left: 70px;
+    padding-left: 5px;
+    padding-bottom: 4px;
+}
+
+#enviar > i {
+    transform: rotate(-30deg);
+}
